@@ -1,0 +1,80 @@
+:root{
+  --lg : #dfe1db;
+  --dg : #5c7627;
+}
+
+
+/* dark green back-ground */
+.dgbg{
+  background-color: var(--dg);
+}
+/* dark green color */
+.dgc{
+  color: var(--dg);
+}
+/* light green back-ground */
+.lgbg{
+  background-color: var(--lg);
+}
+/* light green color */
+.lgc{
+  color: var(--lg);
+}
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family:  "ITC Avant Garde Gothic", sans-serif;
+  cursor: default;
+  outline: none;
+  background-color: #dfe1db;
+  width: 100%;
+  min-width: 1025px;
+}
+.row{
+  width: 100%;
+}
+i{
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+  color: dimgray;
+}
+a:hover{
+  text-decoration: none;
+  color: #363636;
+}
+
+
+
+
+/* ######################################## */
+/* Header CSS */
+nav{
+  padding: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: fixed;
+  width: 100%;
+  background-color: var(--lg);
+  z-index: 30;
+  min-width: 1025px;
+}
+.nav_logo{
+  height: 60px;
+}
+.nav_actions{
+  display: inline-block;
+  line-height: 40px;
+  padding: 10px;
+}
+.nav_reg_button{
+  border: solid 1px gray;  
+  display: inline-block;
+  line-height: 20px;
+  margin: 10px;
+  width: 60%;
+  min-width: 160px;
+}

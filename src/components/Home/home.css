@@ -1,0 +1,65 @@
+.full_height{
+    height: 100vh;
+}
+.centered_cryptex{
+    background-image: url('../../static/icons/cryptex.svg');
+    height: 85%;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 40px;
+}
+.centered_cryptex h1{
+    padding-top: 15%;
+    font-size: 120px;
+    font-weight: bold;
+    font-style: italic;
+    opacity: 0.5;
+}
+.scroll_icon{
+    width: 25px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.home_main_side_container{
+    padding: 8%;
+}
+.home_main_side{
+    text-align: left;
+}
+.tag_line{
+    font-size: 38px;
+    font-weight: bold;
+}
+.tag_line i{
+    display: block;
+}
+.home_main_side_buttons_container{
+    padding-top: 5%;
+}
+.home_main_side_button{
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    width: 170px;
+    padding: 8px;
+    padding-top: 10px;
+    border: solid gray 2px;
+}
+.order_now_button{
+    border-color: #5c7627;
+    transition-duration: 0.2s;
+}
+.order_now_button:hover{
+    color: white;
+    background-color: #425718;
+    border-color: #425718;
+}
+.cryptex{
+    width: 250px;
+    rotate: 70deg;
+}
+.cryptex_container{
+    text-align: left;
+    padding-top: 8%;
+}
