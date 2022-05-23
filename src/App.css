@@ -1,5 +1,5 @@
 :root{
-  --lg : #dfe1db;
+  --lg : #f7faf1;
   --dg : #5c7627;
 }
 
@@ -28,7 +28,7 @@ body{
   font-family:  "ITC Avant Garde Gothic", sans-serif;
   cursor: default;
   outline: none;
-  background-color: #dfe1db;
+  background-color: #f7faf1;
   width: 100%;
   min-width: 1025px;
 }
@@ -63,7 +63,7 @@ nav{
   min-width: 1025px;
 }
 .nav_logo{
-  height: 60px;
+  height: 50px;
 }
 .nav_actions{
   display: inline-block;

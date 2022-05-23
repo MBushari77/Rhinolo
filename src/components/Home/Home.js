@@ -24,7 +24,7 @@ const Home = () => {
       </section>
 
       {/* home section */}
-      <section className='full_height'>
+      <section className=''>
         <div className='row'>
           <div className='col-lg-8 col-md-8 col-sm-12 home_main_side_container'>
             <div className='home_main_side'>
@@ -44,6 +44,24 @@ const Home = () => {
           <div className='col-lg-4 col-md-4 col-sm-12 cryptex_container'>
             <img src={ cryptex } className='cryptex' />
           </div>
+        </div>
+        <div className='search_box_section'>
+          <div>
+            <h5>Track tour shipment</h5>
+          </div>
+          <form>
+            <div className='search_box'>
+                <input placeholder='Enter your shipment ID number' required />
+                <button type='submit'>O</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      {/* Our divission section */}
+      <section>
+        <div className='divission_container'>
+          <h3 className='title'>Our divission</h3>
         </div>
       </section>
 
