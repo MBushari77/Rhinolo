@@ -11,6 +11,7 @@ function App() {
       <center>
         <Router>
           <Header />
+          
           <Switch>
             <Route exact path='/' component={ Home } />
           </Switch>
